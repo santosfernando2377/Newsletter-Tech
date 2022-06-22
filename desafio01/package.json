@@ -1,0 +1,14 @@
+{
+  "name": "newsletter-tech",
+  "version": "1.0.0",
+  "description": "Newsletter de tecnologia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fernando Soares",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
