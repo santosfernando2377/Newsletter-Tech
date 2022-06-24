@@ -40,27 +40,18 @@ function dom(data, success) {
 
 function changeData(data) {
 
-    //console.log(data)
-
     let change = document.getElementsByClassName('card');
 
-    for (let index = 0; index < change.length; index++) {
+    for (let index = 0; index < 4; index++) {
 
-        for (let index1 = 0; index < 4; index++) {
-            change[index].children[1].children[0].innerHTML = data[index1].title;
-            change[index].children[1].children[1].innerText = data[index1].content;
+        change[index].children[1].children[0].innerHTML = data[index].title;
+        change[index].children[1].children[1].innerText = data[index].content;
+
+        /*for (let index1 = 0; index < 4; index1++) {
+            change[index].children[1].children[0].innerHTML = data[index].title;
+            change[index].children[1].children[1].innerText = data[index].content;
             
-        }
-
-        /*data.forEach(element => {
-            change[0].children[1].children[0].innerHTML = element.title;
-            change[0].children[1].children[1].innerText = element.content;
-        });*/
-
-        //change[index].children[1].children[0].innerHTML = "Teste1";
-        //change[index].children[1].children[1].innerText = "Teste";
-        //change[index].children[1].children[0].innerHTML = "Teste1";
-        //change[index].children[1].children[1].innerText = "Teste";
+        }*/
     }
 }
 
