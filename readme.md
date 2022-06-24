@@ -11,7 +11,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Lista de cards
 - [x] Card
 - [x] Responsividade
-- [ ] Integração
+- [x] Integração
 
 ## 💻 Pré-requisitos
 
