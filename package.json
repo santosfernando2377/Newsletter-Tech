@@ -1,0 +1,27 @@
+{
+  "name": "desafio01",
+  "version": "1.0.0",
+  "description": "<img src=\"./src/assets/Example.png\" alt=\"exemplo imagem\">",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santosfernando2377/Newsletter-Tech.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santosfernando2377/Newsletter-Tech/issues"
+  },
+  "homepage": "https://github.com/santosfernando2377/Newsletter-Tech#readme",
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}

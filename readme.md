@@ -17,7 +17,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 <!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
-* Você instalou a versão mais recente de `Xampp ou Lamp`
+* Você instalou a versão mais recente do `Node`
 * Você tem uma máquina `Windows / Linux / Mac`
 
 ## 🚀 Instalando Newsletter Tech
@@ -25,13 +25,22 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 Para instalar o Newsletter Tech, siga estas etapas:
 
 Linux e macOS:
+#### *Faça o clone do projeto*
 ```
 git clone https://github.com/santosfernando2377/Newsletter-Tech.git
 ```
-
+#### *Execute o seguinte comando no prompt de comando*
+```
+npm install
+```
 Windows:
+#### *Faça o clone do projeto*
 ```
 git clone https://github.com/santosfernando2377/Newsletter-Tech.git
+```
+#### *Execute o seguinte comando no prompt de comando*
+```
+npm install
 ```
 
 ## ☕ Usando Newsletter Tech
@@ -39,7 +48,7 @@ git clone https://github.com/santosfernando2377/Newsletter-Tech.git
 Para usar Newsletter Tech, siga estas etapas:
 
 ```
-Coloque a pasta dentro do Xampp ou Lamp e abra o seu locahost
+Execute o comando 'npm run dev'
 ```
 
 Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Fornece uma referência de opções para pontos de bônus!
