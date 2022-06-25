@@ -29,7 +29,7 @@ Linux e macOS:
 ```
 git clone https://github.com/santosfernando2377/Newsletter-Tech.git
 ```
-#### *Execute o seguinte comando no prompt de comando*
+#### *Execute o seguinte comando no bash*
 ```
 npm install
 ```
