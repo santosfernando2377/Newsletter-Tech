@@ -38,6 +38,23 @@ function dom(data, success) {
     }
 }
 
+/**
+ * 
+ * Loading 
+ * 
+ */
+
+ function loading() {
+    let loading = document.getElementsByClassName('loading');
+
+    setTimeout(() => {
+        loading[0].style.display = "none";
+    }, 3000);
+
+}
+
+loading();
+
 function changeData(data) {
 
     let change = document.getElementsByClassName('card');
@@ -46,13 +63,10 @@ function changeData(data) {
 
         change[index].children[1].children[0].innerHTML = data[index].title;
         change[index].children[1].children[1].innerText = data[index].content;
-
-        /*for (let index1 = 0; index < 4; index1++) {
-            change[index].children[1].children[0].innerHTML = data[index].title;
-            change[index].children[1].children[1].innerText = data[index].content;
-            
-        }*/
+        
     }
+
+
 }
 
-changeData()
+changeData();
