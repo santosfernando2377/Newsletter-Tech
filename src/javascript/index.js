@@ -61,7 +61,7 @@ function changeData(data) {
 
     for (let index = 0; index < 4; index++) {
 
-        change[index].children[1].children[0].innerHTML = data[index].title;
+        change[index].children[1].children[0].innerText = data[index].title;
         change[index].children[1].children[1].innerText = data[index].content;
         
     }
