@@ -96,7 +96,7 @@ Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais
 <p style="text-align: center; color: gray;">
 Criado por 
 <span>
-<a style="color: purple; text-decoration: underline;">
+<a href="https://github.com/iuricode" style="color: purple; text-decoration: underline;">
   Iuricode
 </a>
 </span>
