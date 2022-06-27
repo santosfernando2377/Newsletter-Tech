@@ -92,3 +92,12 @@ Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contr
 Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
 
 [⬆ Voltar ao topo](#nome-do-projeto)<br>
+
+<p style="text-align: center; color: gray;">
+Criado por 
+<span>
+<a style="color: purple; text-decoration: underline;">
+  Iuricode
+</a>
+</span>
+</p>
